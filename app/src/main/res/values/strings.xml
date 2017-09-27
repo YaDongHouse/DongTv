@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DongTv</string>
+    <string name="welcome_tips">做年轻人爱看的直播</string>
+    <string name="tab_home">首页</string>
+    <string name="tab_live">直播</string>
+    <string name="tab_follw">关注</string>
+    <string name="tab_me">我的</string>
+    <string name="scoll_aware_fab_behavior">.view.ScollAwareFABBehavior</string>
+</resources>
