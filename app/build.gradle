@@ -46,6 +46,8 @@ dependencies {
     compile 'com.android.support:multidex:1.0.1'
     //Base是针对于Android开发封装好一些常用的基类，主要包括通用的Adapter、Activity、Fragment、Dialog等、和一些常用的Util类，只为更简单。
     compile 'com.king.base:base:3.1.0'
+    //base-adapter
+    compile 'com.king.base:adapter:1.1.1'
     //butterknife依赖
     compile 'com.jakewharton:butterknife:8.5.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
@@ -64,4 +66,10 @@ dependencies {
     compile 'io.reactivex:rxandroid:1.2.1'
     //rxandorid 需要的rxjava的依赖
     compile 'io.reactivex:rxjava:1.1.6'
+    //一个对RecyclerView的封装
+    compile 'com.jude:easyrecyclerview:4.4.2'
+    //通用的广告栏控件，让你轻松实现广告头效果。
+    compile 'com.bigkoo:convenientbanner:2.0.5'
+    //Glide加载不同边框的图片
+    compile 'jp.wasabeef:glide-transformations:2.0.1'
 }

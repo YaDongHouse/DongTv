@@ -1,5 +1,7 @@
 package com.example.admin.dongtv.bean.httpbean;
 
+import com.example.admin.dongtv.util.DecimalFormatUtil;
+
 import java.util.List;
 
 /**
@@ -358,6 +360,17 @@ public class Recommend {
             }
 
             public String getView() {
+                return view;
+            }
+
+            public String getViews(){
+
+                try {
+                    int views = Integer.parseInt(view);
+                    return DecimalFormatUtil.formatW(views);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
                 return view;
             }
 

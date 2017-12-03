@@ -88,6 +88,13 @@ public abstract class BaseFragment<V extends BaseView ,P extends BasePresenter<V
         return (App) getActivity().getApplication();
     }
 
+    /**
+     * 把两个list列表合并
+     * @param list 目标列表
+     * @param newList 数据源列表
+     * @param isMore 是否保留目标列表中原本的数据
+     * @param <T>
+     */
     public <T> void toSetList(List<T> list,List<T> newList,boolean isMore){
         if (list!=null&&newList!=null){
             synchronized (BaseFragment.class) {

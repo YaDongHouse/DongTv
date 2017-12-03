@@ -1,5 +1,7 @@
 package com.example.admin.dongtv.bean.httpbean;
 
+import com.example.admin.dongtv.util.DecimalFormatUtil;
+
 /**
  * Created by admin on 2017/9/23.
  */
@@ -366,6 +368,16 @@ public class LiveInfo {
 
     public void setView(String view) {
         this.view = view;
+    }
+
+    public String getViews(){
+        try {
+            int views = Integer.parseInt(view);
+            return DecimalFormatUtil.formatW(views);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return view;
     }
 
     public String getApp_shuffling_image() {

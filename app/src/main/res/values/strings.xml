@@ -6,4 +6,16 @@
     <string name="tab_follw">关注</string>
     <string name="tab_me">我的</string>
     <string name="scoll_aware_fab_behavior">.view.ScollAwareFABBehavior</string>
+
+    <!-- 推荐 -->
+    <string name="recommend">推荐</string>
+    <string name="recommend_more">更多</string>
+    <string name="swipe_down_to_refresh">下拉刷新数据</string>
+    <string name="network_unavailable">网络状态不佳</string>
+    <string name="islive">正在直播</string>
+    <string name="page_load_failed">加载失败...</string>
+    <string name="tab_all">全部</string>
+    <string name="can_not_find_relevant_content">找不到你想要的内容，换个关键词试试！</string>
+
+
 </resources>

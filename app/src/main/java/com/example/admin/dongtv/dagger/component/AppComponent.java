@@ -4,6 +4,7 @@ import android.content.Context;
 
 import com.example.admin.dongtv.App;
 import com.example.admin.dongtv.dagger.module.AppModule;
+import com.example.admin.dongtv.http.APIService;
 
 import javax.inject.Singleton;
 
@@ -25,6 +26,8 @@ public interface AppComponent {
     Retrofit getRetrofit();
 
     OkHttpClient getOkHttpClient();
+
+    APIService getApiService();
 
 
 }

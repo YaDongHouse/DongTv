@@ -62,7 +62,7 @@ public class MainActivity extends PureActivity {
         FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
         //1-2隐藏所有主Fragment
         hideAllFragment(fragmentTransaction);
-        //1-3检查并吧主页fragment添加到事务里
+        //1-3检查并把主页fragment添加到事务里
 //        if(homeFragment == null){
 //            homeFragment = HomeFragment.newInstance();
 //            fragmentTransaction.add(R.id.fragmentContent,homeFragment);
