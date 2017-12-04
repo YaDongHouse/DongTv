@@ -17,5 +17,6 @@
 
 
     <color name="text_error_color">#7f000000</color>
+    <color name="bg_red_color">#FB5553</color>
 
 </resources>

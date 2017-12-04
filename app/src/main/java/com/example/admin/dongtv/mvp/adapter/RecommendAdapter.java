@@ -99,7 +99,7 @@ public class RecommendAdapter extends RecyclerArrayAdapter<Recommend.RoomBean> {
         }
 
         public void startLive(Context context,String title,String slug){
-            //TODO 这里的ContentActivity需要自定义
+            //TODO 这里的ContentActivity需要自定义0
             Intent intent = new Intent(context,ContentActivity.class);
             intent.putExtra(Constants.KEY_FRAGMENT,Constants.LIVE_FRAGMENT);
             intent.putExtra(Constants.KEY_TITLE,title);
